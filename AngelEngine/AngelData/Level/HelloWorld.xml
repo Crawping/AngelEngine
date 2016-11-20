@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Scene>
+    <Identifier Name="MiniSoccer" />
+  <Actor Tag="House" Name="House">
+    <Transform>
+      <Position x="-0" y="-9" z="0" />
+      <Scale x="4" y="4" z="4" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="castle.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="2" ShapeRadius = "1.5" Mass="0" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="Sun" Name="Sun">
+    <Script Name="sun"/>
+    <Transform>
+      <Position x="15" y="30" z="10" />
+      <Scale x="5" y="5" z="5" />
+      <Rotation x="-90" y="29.7" z="49.84" />
+    </Transform>
+    <LightRenderer>
+      <Properties Type="2" CastShadow  ="1" />
+      <Color x="1" y ="1" z="0.8" w="1" />
+    </LightRenderer>
+  </Actor>
+  <Actor Tag="MainCamera" Name="MainCamera">
+    <Script Name="FirstPersonCamera"/>
+    <Transform>
+      <Position x="0" y="20" z="0" />
+      <Scale x="0" y="0" z="0" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <CharacterController>
+    </CharacterController>
+  </Actor>
+  <Actor Tag="Ghost" Name="Ghost">
+    <Script Name="HelloWorld"/>
+    <Transform>
+      <Position x="45" y="0" z="0" />
+      <Scale x="1.3" y="1.3" z="1.3" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+  </Actor>
+</Scene>

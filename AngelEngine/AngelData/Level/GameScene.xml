@@ -1,0 +1,245 @@
+<?xml version="1.0" ?>
+<Scene>
+    <Identifier Name="MiniSoccer" />
+  <Actor Tag="MainBall" Name="MainBall">
+    <Script Name="Player"/>
+    <Transform>
+      <Position x="35" y="10" z="-5" />
+      <Scale x="1.3" y="1.3" z="1.3" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="brazuca.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <AudioHandler>
+    </AudioHandler>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.1" Mass="20" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+ 
+  <Actor Tag="GoalBall" Name="GoalBall1">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="0" />
+      <Scale x="0.15" y="0.15" z="0.15" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="NBA BASKETBALL.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "17.5" Mass="30" Restitution="0.4"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall5">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="-5" />
+      <Scale x="0.15" y="0.15" z="0.15" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="NBA BASKETBALL.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "17.5" Mass="40" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall2">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="5" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="20" Restitution="0.5"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall3">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="13" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="20" Restitution="0.5"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall4">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="-9" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="20" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall6">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="-13" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="26" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall7">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="-17" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="26" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall8">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="17" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="26" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall9">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="-21" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="26" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalBall" Name="GoalBall10">
+    <Script Name="GoalBall"/>
+    <Transform>
+      <Position x="5" y="0" z="15" />
+      <Scale x="1" y="1" z="1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="soccer.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="1" ShapeRadius = "1.5" Mass="26" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="Goal" Name="Goal">
+    <Transform>
+      <Position x="-70" y="-5" z="-10" />
+      <Scale x="0.1" y="0.1" z="0.1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="gate.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="2" ShapeRadius = "1.5" Mass="0" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="Field" Name="Field">
+    <Transform>
+      <Position x="5" y="-10" z="0" />
+      <Scale x="30.1" y="0.1" z="30.1" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="field.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="2" ShapeRadius = "1.5" Mass="0" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="GoalLine" Name="GoalLine">
+    <Script Name="GoalLine"/>
+    <Transform>
+      <Position x="-65" y="15" z="28" />
+      <Scale x="5" y="5" z="5" />
+      <Rotation x="0" y="0" z="90" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="Floor.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="2" ShapeRadius = "1.5" Mass="0" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+  <Actor Tag="House" Name="House">
+    <Transform>
+      <Position x="-0" y="-9" z="0" />
+      <Scale x="4" y="4" z="4" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+    <MeshRenderer>
+      <Properties MeshName="castle.cmo" Skinning = "false" MaterialType="1" />
+    </MeshRenderer>
+    <RigidBody>
+      <Properties ShapeType="2" ShapeRadius = "1.5" Mass="0" Restitution="0.3"/>
+    </RigidBody>
+  </Actor>
+   
+  <Actor Tag="GUIManager" Name="GUIManager">
+    <Script Name="GUI"/>
+    <Transform>
+      <Position x="-65" y="15" z="28" />
+      <Scale x="5" y="5" z="5" />
+      <Rotation x="0" y="0" z="90" />
+    </Transform>
+  </Actor>
+  <Actor Tag="Sun" Name="Sun">
+    <Script Name="sun"/>
+    <Transform>
+      <Position x="10" y="30" z="10" />
+      <Scale x="5" y="5" z="5" />
+      <Rotation x="-90" y="30" z="50" />
+    </Transform>
+    <LightRenderer>
+      <Properties Type="2" CastShadow  ="1" />
+      <Color x="0.8" y ="1" z="0.8" w="1" />
+    </LightRenderer>
+  </Actor>
+
+  <Actor Tag="MainCamera" Name="MainCamera">
+    <Script Name="FloatingCamera"/>
+    <Transform>
+      <Position x="45" y="0" z="0" />
+      <Scale x="1.3" y="1.3" z="1.3" />
+      <Rotation x="0" y="0" z="0" />
+    </Transform>
+
+  </Actor>
+</Scene>

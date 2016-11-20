@@ -1,0 +1,2045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\PhysicManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelWindow\Public\AngelWindowBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\FileSystemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelLog\Public\AngelLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\RenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemsResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelGlobalTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\IComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\ActorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\ActorsHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Public\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelUtility\Public\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\ALink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\ALinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\AIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\LinearAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\StackAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\VertexTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\dds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DDSTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\PlatformHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\RWTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\WICTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\CBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\MeshRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\BaseCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\MainCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\SkyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\SpriteRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DefferedRenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\ScriptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\VRManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DebugCollisionShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\WorldManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Public\MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\PostProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\ParticleRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\RealTimeClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBankReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WAVFileReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\TerrainManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTexP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\Map2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelGUI\Public\GUISprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelGUI\Public\IGUI2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\RigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\AudioHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\LightRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\MediaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\MediaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\autowrapper\aswrappedcall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\contextmgr\contextmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\datetime\datetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\debugger\debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptany\scriptany.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptarray\scriptarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptbuilder\scriptbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptdictionary\scriptdictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfilesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptgrid\scriptgrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthandle\scripthandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthelper\scripthelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmathcomplex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\serializer\serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\weakref\weakref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\angelscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\VideoRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\CharacterController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\shared\b3Aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3BroadphaseCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvhBroadphase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPairCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3BvhSubtreeInfoData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3BvhTraversal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ClipFaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3Collidable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3Contact4Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ContactConvexConvexSAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ContactSphereSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ConvexPolyhedronData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3FindConcaveSatAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3FindSeparatingAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3MprPenetration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3NewContactReduction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3QuantizedBvhNodeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ReduceContacts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3RigidBodyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3UpdateAabbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3Contact4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3ConvexUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3CpuNarrowPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3RaycastInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3RigidBodyCL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Float4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Int2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Int4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Mat3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3PlatformDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedObjectArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3CommandLineArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3FileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3HashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3MinMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3PoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3QuadWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Scalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3StackAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3TransformUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3ContactSolverInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3JacobianEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3SolverBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3SolverConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3ContactConstraint4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3ConvertConstraint4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3Inertia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3IntegrateTransforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\b3CpuRigidBodyPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3AabbUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3ConvexHullComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GeometryUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GrahamScan2dConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\autogenerated\bullet2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3DNA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorldImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btHashedSimplePairCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPolyhedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btCompoundFromGimpact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btComputeGjkEpaPenetration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkCollisionDescription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMprPenetration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btFixedConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointFeedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointMotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigLCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btPATHSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDEigenInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDLinearMathInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDMatVec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeInitCache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfigBuiltin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfigEigen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDErrorMessages.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDMath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\MultiBodyTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btDefaultSoftBodySolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodySolvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSparseSDF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAabbUtil2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedObjectArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHullComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btCpuFeatureUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btDefaultMotionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGeometryUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btHashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btIDebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMatrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMatrixX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMinMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMotionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPolarDecomposition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuadWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuickprof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btScalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSpatialAlgebra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btStackAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btTransformUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btVector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\btBulletCollisionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\btBulletDynamicsCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\PhysicManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\SubSystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelWindow\Private\AngelWindowBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\FileSystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelLog\Private\AngelLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\RenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\SubSystemsResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\ActorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\ActorsHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\TimeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelMain\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Private\Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelTools\AngelUtility\Private\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\MemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\LinearAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\StackAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\RWTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\WICTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\MeshRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\BaseCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\MainCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\SkyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\SpriteRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DefferedRenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\ScriptManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\VRManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DebugCollisionShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\WorldManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\LightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\PostProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\ParticleRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\RealTimeClock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\AudioEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\DynamicSoundEffectInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundEffectInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBankReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WAVFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\TerrainManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\Map2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\AudioHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\LightRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\LevelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\MediaManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\autowrapper\generator\generateheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\contextmgr\contextmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\datetime\datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\debugger\debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptany\scriptany.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptarray\scriptarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptbuilder\scriptbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptdictionary\scriptdictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfilesystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptgrid\scriptgrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthandle\scripthandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthelper\scripthelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmathcomplex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\serializer\serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\weakref\weakref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\VideoRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\CharacterController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvhBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPairCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3ConvexUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3CpuNarrowPhase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\b3CpuRigidBodyPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3ConvexHullComputer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GeometryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3DNA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\MultiBodyTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHullComputer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGeometryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPolarDecomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuickprof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BlurHorizontal.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BlurVertical.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDiffuse.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelLit.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexSkyMap.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelSkyMap.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDiffuse.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexLit.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GUISpritePixel.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDebugCollision.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDebugCollision.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexSkyMapPlane.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelSkyMapPlane.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexBillBoardText.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelBillBoardText.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexGUI.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelGUI.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDefferedRenderer.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDefferedRendererFinal.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDefferedRendererFinal.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDefferedRenderer.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexForwardRenderer.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelForwardRenderer.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDepth.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDepth.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexPostProcess.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelPostProcess.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\DownSample.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\DepthOfField.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\MotionBlur.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BrightPass.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BloomHorizontal.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BloomVertical.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\CombinePass.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GeometryParticle.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexParticle.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelParticle.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexTerrain.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelTerrain.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GeometryBillBoardText.hlsl" />
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GreyScale.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\Header.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\LightingCalculation.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\LightTypes.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\MaterialTypes.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDiffuse.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamFog.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamLit.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMap.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMapDiffuse.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMapSpecular.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSkyMap.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSpecular.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSpriteLit.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParticleHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Models\Home.fbx" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\GUISpriteHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDebugCollision.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSkyMapPlane.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamBillBoardText.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamGUI.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDefferedRenderer.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamForwardRenderer.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDepth.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamPostProcess.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamParticle.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\TerrainHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTex.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\GUIShaderHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\PostProcessShared.hlsli" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AngelSource\AngelCore\AngelAssets\Textures\SkyMapSunSet.dds" />
+    <Image Include="AngelSource\AngelCore\AngelAssets\Textures\BroadleafBark.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AngelSource\AngelCore\AngelAssets\Models\skydome.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AngelEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

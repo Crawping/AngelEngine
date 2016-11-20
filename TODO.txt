@@ -1,0 +1,17 @@
+-Collsin detection with bullet -> done.
+-lock camera on ball -> done.
+-settings on startup -> done.
+-splash screen -> skip
+-UI -> done
+-angelscript bug when exit -> done.
+-serializations
+-private member actor.h
+-resize bug -> fixed
+-Texture 2d samplers ->done
+-rendering warnings -> done
+-skymap and dynamic weather ->done
+-add margin for button text
+-close settings open game! -> done
+-focus on textboxes ->done
+-button background ->done
+aspect ratio perspective matrix.

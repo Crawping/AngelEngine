@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\autowrapper\aswrappedcall.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\contextmgr\contextmgr.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\datetime\datetime.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\debugger\debugger.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptany\scriptany.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptarray\scriptarray.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptbuilder\scriptbuilder.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptdictionary\scriptdictionary.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfile.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfilesystem.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptgrid\scriptgrid.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthandle\scripthandle.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthelper\scripthelper.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmath.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmathcomplex.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\serializer\serializer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\weakref\weakref.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\AngelScript\angelscript.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\btBulletCollisionCommon.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\btBulletDynamicsCommon.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3BroadphaseCallback.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvhBroadphase.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPair.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPairCache.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\shared\b3Aabb.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3Config.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3Contact4.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3ConvexUtility.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3CpuNarrowPhase.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3RaycastInfo.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3RigidBodyCL.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3BvhSubtreeInfoData.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3BvhTraversal.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ClipFaces.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3Collidable.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3Contact4Data.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ContactConvexConvexSAT.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ContactSphereSphere.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ConvexPolyhedronData.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3FindConcaveSatAxis.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3FindSeparatingAxis.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3MprPenetration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3NewContactReduction.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3QuantizedBvhNodeData.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3ReduceContacts.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3RigidBodyData.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\shared\b3UpdateAabbs.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedAllocator.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedObjectArray.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3CommandLineArgs.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3FileUtils.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3HashMap.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Logging.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Matrix3x3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3MinMax.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3PoolAllocator.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3QuadWord.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Quaternion.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Random.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Scalar.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3StackAlloc.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Transform.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3TransformUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Vector3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Float4.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Int2.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Int4.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Mat3x3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3PlatformDefinitions.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\shared\b3Quat.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\b3CpuRigidBodyPipeline.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3ContactSolverInfo.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3JacobianEntry.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3SolverBody.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3SolverConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3ContactConstraint4.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3ConvertConstraint4.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3Inertia.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\shared\b3IntegrateTransforms.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3AabbUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3ConvexHullComputer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GeometryUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GrahamScan2dConvexHull.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\autogenerated\bullet2.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Chunk.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Common.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Defines.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3DNA.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3File.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Serializer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btAxisSweep3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvt.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDispatcher.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btQuantizedBvh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxDetector.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionConfiguration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionDispatcher.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObject.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorldImporter.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btGhostObject.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btHashedSimplePairCache.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btManifoldResult.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSimulationIslandManager.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btUnionFind.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\SphereTriangleDetector.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBox2dShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBoxShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCapsuleShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionMargin.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCompoundShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConcaveShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConeShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvex2dShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexHullShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexInternalShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPointCloudShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPolyhedron.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCylinderShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btEmptyShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMaterial.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMinkowskiSumShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultiSphereShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btOptimizedBvh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btShapeHull.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btSphereShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStaticPlaneShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStridingMeshInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTetrahedronShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleBuffer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleCallback.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleInfoMap.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMesh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMeshShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btUniformScalingShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btBoxCollision.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btClipPolygon.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btCompoundFromGimpact.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btContactProcessing.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGenericPoolAllocator.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGeometryOperations.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactBvh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactMassUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactQuantizedBvh.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactShape.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btQuantization.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btTriangleShapeEx.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_array.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_basic_geometry_operations.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_bitset.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_collision.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_set.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_clip_polygon.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_contact.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_geometry.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_geom_types.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_hash_table.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_linear_math.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_math.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_memory.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_radixsort.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_tri_collision.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btComputeGjkEpaPenetration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexCast.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkCollisionDescription.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMprPenetration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPointCollector.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btCharacterControllerInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btKinematicCharacterController.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConstraintSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactSolverInfo.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btFixedConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGearConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHinge2Constraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHingeConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btJacobianEntry.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSliderConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolverBody.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolverConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btTypedConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btUniversalConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btActionInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDynamicsWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btRigidBody.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBody.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointFeedback.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointMotor.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyLink.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigLCP.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btPATHSolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btRaycastVehicle.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btVehicleRaycaster.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btWheelInfo.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDEigenInterface.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDLinearMathInterface.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\IDMatVec.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeImpl.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeInitCache.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfig.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfigBuiltin.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDConfigEigen.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDErrorMessages.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDMath.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\MultiBodyTree.hpp" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btDefaultSoftBodySolver.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBody.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyData.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyHelpers.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyInternals.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodySolvers.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodySolverVertexBuffer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidDynamicsWorld.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftSoftCollisionAlgorithm.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSparseSDF.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAabbUtil2.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedAllocator.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedObjectArray.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHull.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHullComputer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btCpuFeatureUtility.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btDefaultMotionState.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGeometryUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGrahamScan2dConvexHull.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btHashMap.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btIDebugDraw.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btList.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMatrix3x3.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMatrixX.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMinMax.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btMotionState.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPolarDecomposition.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPoolAllocator.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuadWord.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuaternion.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuickprof.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btRandom.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btScalar.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSerializer.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSpatialAlgebra.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btStackAlloc.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btTransform.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btTransformUtil.h" />
+    <ClInclude Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btVector3.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\Map2D.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\RealTimeClock.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelGameObjects\Public\MainCamera.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\LinearAllocator.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\StackAllocator.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelGUI\Public\GUISprite.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelGUI\Public\IGUI2D.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelLog\Public\AngelLog.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\BaseCamera.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\CBuffer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\dds.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DDSTextureLoader.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DebugCollisionShape.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DefferedRenderTexture.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTex.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTexP.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\LightManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\PlatformHelpers.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\PostProcess.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\RenderTexture.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\RWTexture.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\Shader.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\SkyMap.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\TerrainManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\Texture2D.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\VertexTypes.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\WICTextureLoader.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\AudioHandler.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\CharacterController.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Component.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\LightRenderer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\MeshRenderer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Model.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\ParticleRenderer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\RigidBody.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\SpriteRenderer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\Transform.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\VideoRenderer.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\MediaManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\Audio.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundCommon.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBankReader.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WAVFileReader.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\FileSystemManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelMemory\Public\MemoryPool.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\InputManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\LevelManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\MediaManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\PhysicManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\RenderManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\ScriptManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemBase.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\SubSystemsResource.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\TimeManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\VRManager.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\AIterator.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\ALink.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelDataStructures\Public\ALinkedList.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelGlobalTools.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Public\MathHelper.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Public\Vector.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelTools\AngelUtility\Public\Color.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelWindow\Public\AngelWindowBase.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Public\IComponent.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\Actor.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\ActorFactory.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Public\ActorsHolder.h" />
+    <ClInclude Include="AngelSource\AngelCore\AngelSubSystem\Public\WorldManager.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\autowrapper\generator\generateheader.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\contextmgr\contextmgr.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\datetime\datetime.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\debugger\debugger.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptany\scriptany.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptarray\scriptarray.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptbuilder\scriptbuilder.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptdictionary\scriptdictionary.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfile.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptfile\scriptfilesystem.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptgrid\scriptgrid.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthandle\scripthandle.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scripthelper\scripthelper.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmath.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptmath\scriptmathcomplex.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\scriptstdstring\scriptstdstring_utils.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\serializer\serializer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\AngelScript\add_on\weakref\weakref.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3DynamicBvhBroadphase.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\BroadPhaseCollision\b3OverlappingPairCache.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3ConvexUtility.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Collision\NarrowPhaseCollision\b3CpuNarrowPhase.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3AlignedAllocator.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Logging.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Common\b3Vector3.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\b3CpuRigidBodyPipeline.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3FixedConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Generic6DofConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3PgsJacobiSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3Point2PointConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Dynamics\ConstraintSolver\b3TypedConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3ConvexHullComputer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Geometry\b3GeometryUtil.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Chunk.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3DNA.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3File.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\Bullet3Serialize\Bullet2FileLoader\b3Serializer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvt.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btDispatcher.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionObject.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorld.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btGhostObject.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btManifoldResult.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\btUnionFind.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBox2dShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBoxShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCapsuleShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCollisionShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCompoundShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConcaveShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConeShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvex2dShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexHullShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexInternalShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btCylinderShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btEmptyShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btMultiSphereShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btOptimizedBvh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btShapeHull.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btSphereShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTetrahedronShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleBuffer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleCallback.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMesh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\CollisionShapes\btUniformScalingShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btContactProcessing.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGenericPoolAllocator.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactBvh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btGImpactShape.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\btTriangleShapeEx.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_box_set.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_contact.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_memory.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\Gimpact\gim_tri_collision.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Character\btKinematicCharacterController.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btRigidBody.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBody.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btRaycastVehicle.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletDynamics\Vehicle\btWheelInfo.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeImpl.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\details\MultiBodyTreeInitCache.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\IDMath.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletInverseDynamics\MultiBodyTree.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btDefaultSoftBodySolver.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBody.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyHelpers.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftRigidDynamicsWorld.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btAlignedAllocator.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHull.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btConvexHullComputer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btGeometryUtil.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btPolarDecomposition.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btQuickprof.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btSerializer.cpp" />
+    <ClCompile Include="AngelSource\Angel3rdParty\Include\BulletPhysics\LinearMath\btVector3.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\MainCamera.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\Map2D.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelGameObjects\Private\RealTimeClock.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\LinearAllocator.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\MemoryPool.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelMemory\Private\StackAllocator.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelLog\Private\AngelLog.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\BaseCamera.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DebugCollisionShape.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DefferedRenderTexture.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\LightManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\PostProcess.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\RenderTexture.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\Shader.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\DDSTextureLoader.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\RWTexture.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\SkyMap.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\TerrainManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\Texture2D.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Private\WICTextureLoader.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\AudioHandler.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\CharacterController.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\LightRenderer.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\MeshRenderer.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\Model.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\ParticleRenderer.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\RigidBody.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\SpriteRenderer.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\Transform.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\AngelComponent\Private\VideoRenderer.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\FileSystemManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\InputManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\LevelManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\MediaManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\PhysicManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\RenderManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\ScriptManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\AudioEngine.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\DynamicSoundEffectInstance.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundCommon.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundEffect.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\SoundEffectInstance.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBank.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WaveBankReader.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\Sound\WAVFileReader.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\SubSystemManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\SubSystemsResource.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\TimeManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\VRManager.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelTools\AngelMathHelper\Private\Vector.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelTools\AngelUtility\Private\Color.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelWindow\Private\AngelWindowBase.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\Actor.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\ActorFactory.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\AngelWorldSystem\Private\ActorsHolder.cpp" />
+    <ClCompile Include="AngelMain\Main.cpp" />
+    <ClCompile Include="AngelSource\AngelCore\AngelSubSystem\Private\WorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BloomHorizontal.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BloomVertical.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BrightPass.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\CombinePass.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\DepthOfField.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\DownSample.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GeometryBillBoardText.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GeometryParticle.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GreyScale.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\MotionBlur.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDefferedRendererFinal.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelBillBoardText.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelGUIData\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelGUIData\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDefferedRenderer.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDepth.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelForwardRenderer.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelGUI.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelParticle.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelTerrain.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexBillBoardText.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BlurHorizontal.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\BlurVertical.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDebugCollision.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelDiffuse.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelLit.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelPostProcess.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\GUISpritePixel.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelSkyMap.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\PixelSkyMapPlane.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDebugCollision.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDefferedRendererFinal.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDefferedRenderer.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDepth.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexDiffuse.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexForwardRenderer.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexGUI.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexLit.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexParticle.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexPostProcess.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexSkyMap.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexSkyMapPlane.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="AngelSource\AngelCore\AngelAssets\Shaders\VertexTerrain.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\AngelData\Shader\%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AngelSource\AngelCore\AngelAssets\Models\Home.fbx" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\GUIShaderHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\Header.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\LightingCalculation.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\LightTypes.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\MaterialTypes.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamBillBoardText.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDebugCollision.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDefferedRenderer.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDepth.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamDiffuse.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\GUISpriteHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamFog.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamForwardRenderer.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamGUI.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamLit.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMap.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMapDiffuse.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamNormalMapSpecular.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamParticle.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamPostProcess.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSkyMap.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSkyMapPlane.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSpecular.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParamSpriteLit.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\ParticleHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\PostProcessShared.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelAssets\Shaders\TerrainHeader.hlsli" />
+    <None Include="AngelSource\AngelCore\AngelSubSystem\AngelRendering\Public\DirectXTex.inl" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AngelSource\AngelCore\AngelAssets\Textures\BroadleafBark.tga" />
+    <Image Include="AngelSource\AngelCore\AngelAssets\Textures\SkyMapSunSet.dds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AngelSource\AngelCore\AngelAssets\Models\skydome.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AngelEngineConfiguration\AngelEngineConfiguration.vcxproj">
+      <Project>{0a90c8c4-a449-43e2-b7b0-3445f9651ed5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\AngelGUI\AngelGUI.vcxproj">
+      <Project>{a439bef6-97a9-45e2-9bc5-0354d050b1f2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AngelEngine.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46D5AFDD-D5FE-4517-963D-F1A8650778BD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AngelEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ShaderGraphContentTask.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\AngelEngineConfiguration;$(SolutionDir)\AngelGUI;$(ProjectDir)AngelSource\Angel3rdParty\Include\OVR;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\BulletPhysics;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\AngelScript;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\AntTweakBar;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\TinyXML;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\lib\AntTweakBar;C:\Users\Peyman\Desktop\assimp-3.2\lib\Debug;$(ProjectDir)AngelSource\Angel3rdParty\Lib\OVR;$(DXSDK_DIR)lib\x86;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\lib\AngelScript;$(ProjectDir)AngelSource\Angel3rdParty\lib\BulletPhysics;$(ProjectDir)AngelSource\Angel3rdParty\lib\OVR;$(ProjectDir)AngelSource\Angel3rdParty\lib\DirectxTex;$(ProjectDir)AngelSource\Angel3rdParty\lib\assimp;$(ProjectDir)AngelSource\Angel3rdParty\lib\Zlib;$(ProjectDir)AngelSource\Angel3rdParty\lib\AngelScript;$(OutDir);$(ProjectDir)AngelSource\Angel3rdParty\lib\tinyXML;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Peyman\Desktop\AngelEngine\AngelEngine\AngelSource\Angel3rdParty\Include\AngelScript;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\AngelEngineConfiguration;$(SolutionDir)\AngelGUI;$(ProjectDir)AngelSource\Angel3rdParty\Include\OVR;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\BulletPhysics;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\AngelScript;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\AntTweakBar;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\TinyXML;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include\Imgui;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\lib\AntTweakBar;C:\Users\Peyman\Desktop\assimp-3.2\lib\Debug;$(ProjectDir)AngelSource\Angel3rdParty\Lib\OVR;$(DXSDK_DIR)lib\x86;$(SolutionDir)AngelEngine\AngelSource\Angel3rdParty\lib\AngelScript;$(ProjectDir)AngelSource\Angel3rdParty\lib\BulletPhysics;$(ProjectDir)AngelSource\Angel3rdParty\lib\OVR;$(ProjectDir)AngelSource\Angel3rdParty\lib\DirectxTex;$(ProjectDir)AngelSource\Angel3rdParty\lib\assimp;$(ProjectDir)AngelSource\Angel3rdParty\lib\Zlib;$(ProjectDir)AngelSource\Angel3rdParty\lib\AngelScript;$(OutDir);$(ProjectDir)AngelSource\Angel3rdParty\lib\tinyXML;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";CEGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Peyman\Documents\Visual Studio 2015\Projects\AngelEngine\AngelEngine\AngelSource\Angel3rdParty\Include\AngelScript;$(ProjectDir)AngelSource\Angel3rdParty\Include\BulletPhysics;$(ProjectDir)AngelSource\Angel3rdParty\Include\OVR;$(ProjectDir)AngelSource\Angel3rdParty\Include\AngelScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;d2d1.lib;dwrite.lib;dinput8.lib;dxguid.lib;DirectXTexd.lib;angelscriptd.lib;ddraw.lib;libovrd.lib;Bullet2FileLoader_Debug.lib;Bullet3Collision_Debug.lib;Bullet3Common_Debug.lib;Bullet3Dynamics_Debug.lib;Bullet3Geometry_Debug.lib;Bullet3OpenCL_clew_Debug.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletFileLoader_Debug.lib;BulletInverseDynamics_Debug.lib;BulletInverseDynamicsUtils_Debug.lib;BulletSoftBody_Debug.lib;BulletWorldImporter_Debug.lib;BulletXmlWorldImporter_Debug.lib;ConvexDecomposition_Debug.lib;GIMPACTUtils_Debug.lib;LinearMath_Debug.lib;OpenGLWindow_Debug.lib;AntTweakBar.lib;d3dcompiler.lib;d3dx10.lib;d3dx11d.lib;d3dx10d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;DbgHelp.lib;opengl32.lib;shell32.lib;AngelGUI.lib;tinyXMLd.lib;mf.lib;mfplat.lib;runtimeobject.lib;assimpd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;d2d1.lib;dwrite.lib;dinput8.lib;dxguid.lib;$(SolutionDir)\AngelEngine\AngelSource\Angel3rdParty\Lib\AngelScript\angelscriptd.lib;$(SolutionDir)\AngelEngine\AngelSource\Angel3rdParty\Lib\AngelScript\angelscript.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_RELEASE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Peyman\Documents\Visual Studio 2015\Projects\AngelEngine\AngelEngine\AngelSource\Angel3rdParty\Include\AngelScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;d2d1.lib;dwrite.lib;dinput8.lib;dxguid.lib;angelscript.lib;tinyxml.lib;Bullet2FileLoader.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletFileLoader.lib;BulletInverseDynamics.lib;BulletInverseDynamicsUtils.lib;BulletSoftBody.lib;BulletWorldImporter_Debug.lib;BulletXmlWorldImporter.lib;ConvexDecomposition.lib;GIMPACTUtils.lib;LinearMath.lib;OpenGLWindow.lib;DirectXTex.lib;libOvr.lib;mf.lib;mfplat.lib;runtimeobject.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ShaderGraphContentTask.targets" />
+  </ImportGroup>
+</Project>
